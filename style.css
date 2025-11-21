@@ -1,0 +1,210 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+}
+.section{
+  height: 100vh;
+}
+/*firstDiv*/
+.fst1{
+  min-height: 43vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(#6642FE,#352EEA);
+  border-radius: 0px 0px 40px 40px;
+}
+.fst1 h2{
+  text-align: center;
+  text-transform: capitalize;
+  color: white;
+  opacity: 80%;
+  margin: 15px 0px;
+}
+.a76{
+  width: 120px;
+  height: 120px;
+  background: linear-gradient(#4A24CE,#4734ED);
+  margin: 0 auto;
+  border-radius: 50%;
+  text-align: center;
+}
+.a76 h1{
+  margin-top: 20px;
+  font-weight: 900;
+  color: white;
+  font-size: 50px;
+}
+.fst1 span{
+  color: white;
+  opacity: 80%;
+}
+.greet{
+  width: 100%;
+  margin-top: 20px;
+}
+.greet h1{
+  text-align: center;
+  margin: 8px 0px;
+  color: white;
+}
+.greet p{
+  text-align: center;
+  line-height: 25px;
+  color: white;
+  opacity: 80%;
+}
+/*secDiv*/
+.sec{
+  height: 57vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.sec h2{
+  margin: 20px;
+  color: navy;
+  margin-bottom: 10px;
+}
+/*first */
+.icon-Reaction{
+  background: #FFEAEA;
+  padding: 20px;
+  width: 96%;
+  border-radius: 20px;
+  margin: 5px auto;
+}
+.icon-Reaction i{
+  color: #FF6F61;
+  margin-left: 5px;
+}
+.icon-Reaction span{
+  margin-left: 5px;
+  color: #FF6F61;
+  font-weight: 700;
+}
+.icon-Reaction b{
+  float: right;
+  overflow: hidden;
+  color: black;
+  margin-top: -3px;
+  font-weight: 800;
+}
+
+.icon-Reaction b .isp {
+  color: rgba(0, 0, 0, 0.5); /* "/100" 80% opacity */
+}
+/* 2nd number */
+.iconBraine{
+  background: #FFF7E6;
+  padding: 20px;
+  width: 96%;
+  border-radius: 20px;
+  margin: 5px auto;
+}
+.iconBraine i{
+  color: #F9C74F;
+  margin-left: 5px;
+  font-weight: 700;
+}
+.iconBraine span{
+  margin-left: 5px;
+  color: #F9C74F;
+  font-weight: 700;
+}
+.iconBraine b{
+  float: right;
+  overflow: hidden;
+  color: black;
+  margin-top: -3px;
+  font-weight: 800;
+}
+
+.iconBraine b .isb {
+  color: rgba(0, 0, 0, 0.5); /* "/100" 80% opacity */
+}
+/* 3rd number */
+.iconVerbal{
+  background: #E8FFF7;
+  padding: 20px;
+  width: 96%;
+  border-radius: 20px;
+  margin: 5px auto;
+}
+.iconVerbal i{
+  color: #4ECCA3;
+  margin-left: 5px;
+}
+.iconVerbal span{
+  margin-left: 5px;
+  color: #4ECCA3;
+  font-weight: 700;
+}
+.iconVerbal b{
+  float: right;
+  overflow: hidden;
+  color: black;
+  margin-top: -3px;
+  font-weight: 800;
+}
+
+.iconVerbal b .lsb {
+  color: rgba(0, 0, 0, 0.5); /* "/100" 80% opacity */
+}
+/* last number */
+.iconVisual{
+  background: #F2F0FF;
+  padding: 20px;
+  width: 96%;
+  border-radius: 20px;
+  margin: 5px auto;
+}
+.iconVisual i{
+  color: #6C63FF;
+  margin-left: 5px;
+}
+.iconVisual span{
+  margin-left: 5px;
+  color: #6C63FF;
+  font-weight: 700;
+}
+.iconVisual b{
+  float: right;
+  overflow: hidden;
+  color: black;
+  margin-top: -3px;
+  font-weight: 800;
+}
+
+.iconVisual b .usb {
+  color: rgba(0, 0, 0, 0.5); /* "/100" 80% opacity */
+}
+/* box-shadow*/
+.icon-Reaction,
+.iconBraine,
+.iconVerbal,
+.iconVisual {
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.05);
+}
+.a76 {
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+/* button disin*/
+#btn{
+  width: 96%;
+  background: #1F2A44;
+  color: #FFFFFF;
+  font-size: 20px;
+  margin: 10px;
+  padding: 15px;
+  border: none;
+  border-radius: 20px;
+}
+#btn:hover {
+  background: #162033;
+  cursor: pointer;
+}
+/*end*/
